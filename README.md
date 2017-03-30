@@ -7,7 +7,7 @@
 ```
 2、配置log4j
 ```
-log4j.appender.log4mongo=cn.cloudidea.log4mongo.MongoAppender
+log4j.appender.log4mongo=com.github.bokire.log4mongo.MongoAppender
 log4j.appender.log4mongo.Threshold=INFO
 log4j.appender.log4mongo.mongoTemplateId=log4MongoTemplate
 log4j.appender.log4mongo.collectionName=sys_log
